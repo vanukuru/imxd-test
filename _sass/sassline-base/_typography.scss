@@ -9,6 +9,48 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
+@font-face {
+  font-family: 'Gotham';
+  //src: url('fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/Gotham-Black.ttf')  format('truetype'); /* Safari, Android, iOS */
+   font-weight: 1000;
+   font-style: normal;
+ }
+
+@font-face {
+  font-family: 'Gotham';
+  //src: url('fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/Gotham-Bold.otf')  format('opentype'); /* Safari, Android, iOS */
+   font-weight: 700;
+   font-style: normal;
+ }
+
+@font-face {
+  font-family: 'Gotham';
+  //src: url('fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/Gotham Book.ttf')  format('truetype'); /* Safari, Android, iOS */
+   font-weight: 400;
+   font-style: normal;
+ }
+
+//@font-face {
+//  font-family: 'Gotham';
+//  //src: url('fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
+//  src: url('/assets/fonts/Gotham-Thin.ttf')  format('truetype'); /* Safari, Android, iOS */
+//   font-weight: 300;
+//   font-style: normal;
+// }
+
+@font-face {
+  font-family: 'Gotham';
+  //src: url('fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/Gotham-Light.ttf')  format('truetype'); /* Safari, Android, iOS */
+   font-weight: 200;
+   font-style: normal;
+ }
+
+
+
 // Site-wide base styles.
 body {
   @include fontsize(zeta, all);
@@ -16,7 +58,7 @@ body {
   font-family: unquote(map-get($bodytype, font-family));
   font-style: normal;
   font-weight: map-get($bodytype, regular);
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 
 // Links.
@@ -52,7 +94,7 @@ a {
 
   // Paragraphs. OpenType ligatures and oldstyle figures enabled if available.
   p {
-    @include baseline($fontsize: zeta, $font: $bodytype, $lineheight: 2, $below: 2, $breakpoint: all);
+    @include baseline($fontsize: zeta, $font: $bodytype, $lineheight: 1.5, $below: 2, $breakpoint: all);
 
     font-feature-settings: 'kern', 'onum', 'liga';
   }

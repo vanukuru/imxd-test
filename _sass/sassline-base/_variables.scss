@@ -55,25 +55,48 @@ $gutterwidths: (
 // Add typefaces here.
 // Add weight and style details too.
 // ! Set cap height to set to the baseline.
+//$bodytype: (
+//  font-family: 'Georgia, sans-serif',
+//  regular: 400,
+//  bold: 700,
+//  italic: italic,
+//  cap-height: 0.66
+//) !default;
+//
+//$headingtype: (
+//  font-family: 'Helvetica, sans-serif',
+//  regular: 400,
+//  bold: 700,
+//  cap-height: 0.66
+//) !default;
+//
+//$monospacetype: (
+//  font-family: 'Menlo, monospace',
+//  regular: 400,
+//  cap-height: 0.68
+//) !default;
+
+
 $bodytype: (
-  font-family: 'Georgia, serif',
+  font-family: "'Gotham', sans-serif",
   regular: 400,
   bold: 700,
   italic: italic,
-  cap-height: 0.66
+  cap-height: 0.75
 ) !default;
 
 $headingtype: (
-  font-family: 'Helvetica, sans-serif',
+  font-family: "'Gotham', sans-serif",
   regular: 400,
-  bold: 700,
-  cap-height: 0.66
+  //bold: 700,
+  cap-height: 0.75
 ) !default;
 
 $monospacetype: (
-  font-family: 'Menlo, monospace',
+  //font-family: "Menlo, monospace",
+  font-family: "'Gotham', sans-serif",
   regular: 400,
-  cap-height: 0.68
+  cap-height: 0.75
 ) !default;
 
 // Here are some local fonts cap-height sizes to get you started:
@@ -84,8 +107,8 @@ $monospacetype: (
 // Proxima Nova: 0.57, Museo Slab: 0.66, JAF Facit: 0.7, Brandon Grotesque: 0.65, Clavo: 0.7, Adelle: 0.66, FF Tisa Pro: 0.82, Jubilat: 0.66, Futura PT: 0.66, Chaparral Pro: 0.5, Minion Pro: 0.66, Myriad Pro: 0.66, Adobe Caslon Pro: 0.36
 
 // Text colours. British English.
-$headingColour: #2E2E2E !default;
-$bodyColour: #494949 !default;
+$headingColour: #121617 !default;
+$bodyColour: #121617 !default;
 $linkColour: #0E58F5 !default;
 $hoverColour: #0B348B !default;
 $captionColour: #BDC8CC !default;
@@ -94,3 +117,12 @@ $white: #FFFFFF !default;
 // Background colours.
 $backgroundColour: #FCFCFC !default;
 $codeBackgroundColour: #F5F4F2 !default;
+
+$imxd-black: #121617 !default;
+$imxd-green: #008055 !default;
+$imxd-yellow: #FFD650 !default;
+$imxd-grey1: #CCCCCC !default;
+$imxd-white: #F5F5F5 !default;
+$imxd-green1: #7FBFAA !default;
+$imxd-yellow1: #FFEAA7 !default;
+$imxd-grey2: #EEEEEE !default;

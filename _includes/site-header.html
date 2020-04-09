@@ -1,10 +1,16 @@
-<header class="header">
-  <div class="container">
+<header class="header" style="position: fixed; width: 100%;">
+    <div style="background: #f5f5f5;">
+    
+    <div class="container" style="height: 96px;  background: #f5f5f5;">
     {% if site.logo %}{% include site-logo.html %}{% endif %}
 
     {% include nav-header.html %}
   </div>
 
-  {% include site-feature.html %}
+        </div>
+  
+        
 
 </header>
+  {% include site-feature.html %}
+
